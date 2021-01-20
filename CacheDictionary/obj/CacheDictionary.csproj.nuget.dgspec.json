@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\CacheDictionary\\CacheDictionary.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\CacheDictionary\\CacheDictionary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\CacheDictionary\\CacheDictionary.csproj",
+        "projectName": "CacheDictionary",
+        "projectPath": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\CacheDictionary\\CacheDictionary.csproj",
+        "packagesPath": "C:\\Users\\stefan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\CacheDictionary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Interfaces\\Interfaces.csproj"
+              },
+              "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Interfaces\\Interfaces.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Interfaces\\Interfaces.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Services\\Services.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Services\\Services.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "I1cje8iofaBjxCuAvDiQQssgubPNG4iB6fsbmChnHgS0d1TIdRELIAN2dB+e0/bbwJ3mEN/VyI3q5qGeMt4G3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stefan\\source\\repos\\CacheDictionary\\CacheDictionary\\CacheDictionary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stefan\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\stefan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\stefan\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
